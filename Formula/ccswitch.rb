@@ -1,8 +1,9 @@
 class Ccswitch < Formula
   desc "Instantly switch between multiple Claude Code accounts — no browser, no login codes"
   homepage "https://github.com/recepzgrmh/ccswitch"
-  url "https://github.com/recepzgrmh/ccswitch/archive/refs/tags/v1.1.0.tar.gz"
-  version "1.1.0"
+  url "https://github.com/recepzgrmh/ccswitch/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "052846e7a6babd206644da475d69179ef770c2008abfa2ef63e1f562c862138f"
+  version "1.3.0"
 
   depends_on :macos
   depends_on "python3"
@@ -20,7 +21,7 @@ class Ccswitch < Formula
         ccswitch save main        # save your current account
         ccswitch add work         # add a new account (opens browser)
         ccswitch use work         # switch instantly
-        ccswitch status           # show active account
+        ccswitch status           # show active account + rate limit usage
     EOS
   end
 
