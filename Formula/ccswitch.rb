@@ -1,9 +1,9 @@
 class Ccswitch < Formula
   desc "Instantly switch between multiple Claude Code accounts — no browser, no login codes"
   homepage "https://github.com/recepzgrmh/ccswitch"
-  url "https://github.com/recepzgrmh/ccswitch/archive/refs/tags/v1.6.4.tar.gz"
-  sha256 "7f36f40562efef42eddea4e0ba2283e7a91cda6097f9242ed726ef18d379bfaa"
-  version "1.6.4"
+  url "https://github.com/recepzgrmh/ccswitch/archive/refs/tags/v1.6.5.tar.gz"
+  sha256 "fe0ca6bc239106a5c33108b98881fae6de9bc6689cd1fbb05dd0cc91c92c1d5a"
+  version "1.6.5"
 
   depends_on :macos
   depends_on "python3"
