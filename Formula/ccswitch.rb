@@ -1,9 +1,9 @@
 class Ccswitch < Formula
   desc "Instantly switch between multiple Claude Code accounts — no browser, no login codes"
   homepage "https://github.com/recepzgrmh/ccswitch"
-  url "https://github.com/recepzgrmh/ccswitch/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "dc88da9ba23f947924f3f2b48573f1a666d32bd60ce68d370241a641504e83e2"
-  version "1.5.0"
+  url "https://github.com/recepzgrmh/ccswitch/archive/refs/tags/v1.6.0.tar.gz"
+  sha256 "87074e42d59de4bf7c430ee1c2b21b682a920ed38663695383ce2440ab9e71fc"
+  version "1.6.0"
 
   depends_on :macos
   depends_on "python3"
@@ -24,9 +24,8 @@ class Ccswitch < Formula
         ccswitch status           # show active account
         ccswitch doctor           # check tool health
 
-      Optional: enable rate-limit usage display
-        ccswitch helper install <extension-id>
-        (see: https://github.com/recepzgrmh/ccswitch#usage-helper)
+      Usage display: open Chrome with claude.ai logged in, then enable
+        Chrome → View → Developer → Allow JavaScript from Apple Events
     EOS
   end
 
